@@ -17,6 +17,7 @@ def index(request):
         data_books.append(
             {
                 'book': book,
+                "commented": book.user_commented(user) if user.is_authenticated else False,
                 "liked": book.user_liked(user) if user.is_authenticated else False,
                 "comments": Comment.objects.filter(book=book)
             }
