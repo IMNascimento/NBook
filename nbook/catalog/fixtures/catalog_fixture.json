@@ -1,0 +1,126 @@
+[
+    {
+        "model": "catalog.book",
+        "pk": 1,
+        "fields": {
+            "title": "Livro One",
+            "path": "img/2022/01/01/img4.jpg",
+            "description": "Description for Livro One"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 2,
+        "fields": {
+            "title": "Livro Two",
+            "path": "img/2022/01/01/img3.jpg",
+            "description": "Description for Livro Two"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 3,
+        "fields": {
+            "title": "Livro Three",
+            "path": "img/2022/01/01/img2.jpg",
+            "description": "Description for Livro Three"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 4,
+        "fields": {
+            "title": "Livro Four",
+            "path": "img/2022/01/01/img1.jpg",
+            "description": "Description for Livro Four"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 5,
+        "fields": {
+            "title": "Livro Five",
+            "path": "img/2022/01/01/img6.jpg",
+            "description": "Description for Livro Five"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 6,
+        "fields": {
+            "title": "Livro Six",
+            "path": "img/2022/01/01/img5.jpg",
+            "description": "Description for Livro Six"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 7,
+        "fields": {
+            "title": "Livro Seven",
+            "path": "img/2022/01/01/img4.jpg",
+            "description": "Description for Livro Seven"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 8,
+        "fields": {
+            "title": "Livro Eight",
+            "path": "img/2022/01/01/img1.jpg",
+            "description": "Description for Livro Eight"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 9,
+        "fields": {
+            "title": "Livro Nine",
+            "path": "img/2022/01/01/img2.jpg",
+            "description": "Description for Livro Nine"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 10,
+        "fields": {
+            "title": "Livro Ten",
+            "path": "img/2022/01/01/img3.jpg",
+            "description": "Description for Livro Ten"
+        }
+    },
+    {
+        "model": "catalog.like",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "book": 1
+        }
+    },
+    {
+        "model": "catalog.like",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "book": 2
+        }
+    },
+    {
+        "model": "catalog.comment",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "book": 1,
+            "content": "Great Livro!"
+        }
+    },
+    {
+        "model": "catalog.comment",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "book": 2,
+            "content": "Really enjoyed it!"
+        }
+    }
+]
